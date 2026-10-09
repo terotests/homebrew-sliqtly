@@ -4,19 +4,19 @@
 class Sliqtly < Formula
   desc "MCP server and presentation viewer: your AI agent makes slides"
   homepage "https://sliqtly.com/local.html"
-  version "0.0.14"
+  version "0.0.15"
   # Sliqtly Personal License: free for personal use and qualifying solo
   # businesses (annual gross revenue below EUR 200,000); other commercial
   # use needs a commercial license. Not open source.
   license :cannot_represent
 
   on_arm do
-    url "https://firebasestorage.googleapis.com/v0/b/sliqtly.firebasestorage.app/o/downloads%2Fpersonal%2Fsliqtly-personal_0.0.14_darwin_arm64.tar.gz?alt=media"
-    sha256 "8404937b2637d78d533b2132d072dd1bb52dcdb9cabb4745907edeb264facf9e"
+    url "https://firebasestorage.googleapis.com/v0/b/sliqtly.firebasestorage.app/o/downloads%2Fpersonal%2Fsliqtly-personal_0.0.15_darwin_arm64.tar.gz?alt=media"
+    sha256 "3ac9246aea6d2ac623ffecfc2a5c3810459d62238a653cdb90f2593b4afaa32f"
   end
   on_intel do
-    url "https://firebasestorage.googleapis.com/v0/b/sliqtly.firebasestorage.app/o/downloads%2Fpersonal%2Fsliqtly-personal_0.0.14_darwin_amd64.tar.gz?alt=media"
-    sha256 "73698a7b5257a1947955b688db3b0c2b029156f7363fc0e199709471b0134043"
+    url "https://firebasestorage.googleapis.com/v0/b/sliqtly.firebasestorage.app/o/downloads%2Fpersonal%2Fsliqtly-personal_0.0.15_darwin_amd64.tar.gz?alt=media"
+    sha256 "47637bf5abd2abd5687b63843380fa6860919689ca663260c6a68d43c55b67f7"
   end
 
   depends_on :macos
